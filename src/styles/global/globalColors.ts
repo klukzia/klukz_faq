@@ -1,4 +1,4 @@
-import type { GlobalColors } from "@/types/ui/globals";
+import type { GlobalColors } from "@zero/types/ui/globals";
 
 const globalColors: GlobalColors = {
 	primary: "#141518",

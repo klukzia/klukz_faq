@@ -1,4 +1,4 @@
-import type { GlobalFonts } from "@/types/ui/globals";
+import type { GlobalFonts } from "@zero/types/ui/globals";
 
 const globalFonts: GlobalFonts = {
 	mainFont: "'Montserrat', sans-serif",

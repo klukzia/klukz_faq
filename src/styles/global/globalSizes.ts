@@ -1,4 +1,4 @@
-import type { GlobalSizes } from "@/types/ui/globals";
+import type { GlobalSizes } from "@zero/types/ui/globals";
 
 const globalSizes: GlobalSizes = {
 	mobileSmall: "360px",
