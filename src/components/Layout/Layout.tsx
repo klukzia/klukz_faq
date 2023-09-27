@@ -2,6 +2,7 @@ import React, { PropsWithChildren, useEffect } from "react";
 import Header from "../Header/Header";
 import LayoutStyled from "./LayoutStyled";
 import Head from "next/head";
+import Footer from "../Footer/Footer";
 
 const Layout: React.FC<PropsWithChildren> = ({ children }) => {
 	const a = "a";
@@ -22,6 +23,7 @@ const Layout: React.FC<PropsWithChildren> = ({ children }) => {
 			</Head>
 			<Header />
 			{children}
+			<Footer />
 		</LayoutStyled>
 	);
 };

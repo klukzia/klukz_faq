@@ -26,6 +26,10 @@ export const faqData = [
 	{
 		question: "How do you have overlays on your camera?",
 		answer: "OBS, do your homework."
+	},
+	{
+		question: "Are you a streamer/YouTuber?",
+		answer: "No, stop asking, I don't make content, although I would love to, yes I have a good setup for making content, I have no ideas of what to make content of."
 	}
 ];
 
@@ -57,6 +61,10 @@ export const faqDataEsp = [
 	{
 		question: "¿Cómo tienes transiciones en tu cámara?",
 		answer: "OBS, haz tu tarea."
+	},
+	{
+		question: "Eres streamer/YouTuber?",
+		answer: "No, deja de preguntar, no hago contenido, aunque me encantaria, si tengo un buen setup para hacer contenido, No tengo idea de que hacer de contenido."
 	}
 ];
 

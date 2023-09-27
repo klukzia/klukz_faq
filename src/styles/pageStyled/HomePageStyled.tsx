@@ -12,6 +12,7 @@ const HomePageStyled = styled.main<selectedLang>`
 
 	@media (max-width: ${(props) => props.theme.sizes.mobileLarge}) {
 		padding: 0 10px;
+		width: 100%;
 	}
 
 	.language {
@@ -21,6 +22,21 @@ const HomePageStyled = styled.main<selectedLang>`
 		align-items: center;
 		gap: 1rem;
 		padding: 1rem 0;
+
+		button {
+			border-radius: 50%;
+			cursor: pointer;
+		}
+
+		.us-img,
+		.es-img {
+			transition: all 0.3s ease;
+			cursor: pointer;
+
+			&:hover {
+				opacity: 1;
+			}
+		}
 
 		.us-img {
 			opacity: ${(props) => (props.selectedLang === "en" ? 1 : 0.5)};
@@ -32,14 +48,26 @@ const HomePageStyled = styled.main<selectedLang>`
 	}
 
 	.banner {
+		display: flex;
+		justify-content: center;
+		align-items: center;
 		width: 100%;
-		height: 300px;
+		height: calc(3em + 20vh) ;
 		background-image: url("/images/klukz_background.png");
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
 		border-radius: 10px;
 		margin: 2rem 0;
+
+		&-text {
+			font-family: "Shrimps", sans-serif;
+			font-size: calc(3em + 2vw);
+			font-weight: 600;
+			color: ${(props) => props.theme.colors.text_primary};
+			text-align: center;
+			padding-top: 2rem;
+		}
 	}
 
 	.container {

@@ -13,7 +13,7 @@ const Header = () => {
 				<span className="name">klukz</span>
 			</div>
 			<div className="header-routes">
-				<Link href={"Home"} key={"Home"} passHref>
+				<Link href={"/"} key={"/"} passHref>
 					<span className="header-routes-link">FAQ</span>
 				</Link>
 			</div>

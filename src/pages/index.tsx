@@ -11,7 +11,9 @@ const Home: NextPage = () => {
 
 	return (
 		<HomePageStyled selectedLang={lang}>
-			<div className="banner" />
+			<div className="banner">
+				<span className="banner-text">FAQ</span>
+			</div>
 			<div className="language">
 				<button type="button" onClick={() => setLang("en")}><Image src={"/images/usa.png"} className="us-img" width={30} height={30} alt="english" /></button>
 				<button type="button" onClick={() => setLang("es")}><Image src={"/images/spain.png"} className="es-img" width={30} height={30} alt="spain" /></button>

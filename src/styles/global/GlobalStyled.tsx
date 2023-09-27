@@ -60,6 +60,15 @@ const GlobalReset = css`
   }
 `;
 
+const GlobalFonts = css`
+  @font-face {
+    font-family: "Shrimps";
+    src: url("/fonts/shrimps.ttf");
+    font-weight: 400;
+    font-style: normal;
+  }
+`;
+
 const GlobalStyles = css`
   ::-webkit-scrollbar {
     width: 10px;
