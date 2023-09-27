@@ -63,8 +63,8 @@ export const faqDataEsp = [
 		answer: "OBS, haz tu tarea."
 	},
 	{
-		question: "Eres streamer/YouTuber?",
-		answer: "No, deja de preguntar, no hago contenido, aunque me encantaria, si tengo un buen setup para hacer contenido, No tengo idea de que hacer de contenido."
+		question: "¿Eres streamer/YouTuber?",
+		answer: "No, deja de preguntar, no hago contenido, aunque me encantaría, tengo un buen equipo para hacer contenido, pero no tengo idea de qué tipo de contenido crear."
 	}
 ];
 

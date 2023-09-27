@@ -87,7 +87,7 @@ const HomePageStyled = styled.main<selectedLang>`
 		border-radius: 10px;
 		padding: 1rem 2rem;
 		transition: all 0.3s;
-
+		
 		& > * {
 			cursor: pointer;
 		}
