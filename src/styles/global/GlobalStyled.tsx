@@ -90,12 +90,13 @@ const GlobalStyles = css`
 
   body {
     width: 100%;
-    height: 100vh;
-    position: relative;
+    height: 100%;
     overflow-x: hidden;
-    /* background-color: ${globals.colors.primary}; */
     background: #01010333;
     background: radial-gradient(at left top, #131320, #080813);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     font-family: ${globals.fonts.mainFont};
   }
 

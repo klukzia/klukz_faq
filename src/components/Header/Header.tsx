@@ -3,12 +3,6 @@ import HeaderStyled from "./HeaderStyled";
 import Image from "next/image";
 import Link from "next/link";
 
-interface IRouter {
-	name: string;
-	path: string;
-	btn?: boolean;
-}
-
 const Header = () => {
 	const [opened, setOpened] = useState(false);
 
