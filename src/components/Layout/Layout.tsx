@@ -10,7 +10,7 @@ const Layout: React.FC<PropsWithChildren> = ({ children }) => {
 	return (
 		<LayoutStyled>
 			<Head>
-				<title>kluzk - Faq</title>
+				<title>klukz - FAQ</title>
 				<meta name="description" content="Faq" />
 				<link rel="icon" href="/images/klukz.ico" />
 				{/* Open Graph metadata */}
