@@ -80,11 +80,22 @@ const HomePageStyled = styled.main<selectedLang>`
 	}
 
 	.faq {
+		display: flex;
 		width: 100%;
 		color: ${(props) => props.theme.colors.text_primary};
 		background-color: #ffffff05;
 		border-radius: 10px;
 		padding: 1rem 2rem;
+		transition: all 0.3s;
+
+		& > * {
+			cursor: pointer;
+		}
+
+		&:hover {
+			transform: scale(1.02);
+			transition: all 0.3s;
+		}
 
 		&::-webkit-details-marker {
 			display: none;
