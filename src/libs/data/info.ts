@@ -5,7 +5,7 @@ export const faqData = [
 	},
 	{
 		question: "How old are you?",
-		answer: "I'm 17."
+		answer: "I'm 18."
 	},
 	{
 		question: "How do you play your piano through your mic?",
@@ -40,7 +40,7 @@ export const faqDataEsp = [
 	},
 	{
 		question: "¿Cuántos años tienes?",
-		answer: "Tengo 17 años."
+		answer: "Tengo 18 años."
 	},
 	{
 		question: "¿Cómo tocas tu piano a través de tu micrófono?",
